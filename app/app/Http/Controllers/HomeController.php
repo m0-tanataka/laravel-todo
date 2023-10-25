@@ -19,11 +19,10 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
     {
-				// ログイン成功後にtodoのトップページへリダイレクトする
-        return redirect()->route('todo.index');
+        return view('home');
     }
 }

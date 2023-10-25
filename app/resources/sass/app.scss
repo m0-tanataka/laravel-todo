@@ -1,26 +1,8 @@
-.bg-green {
-    background-color: #658e7c;
-}
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
 
-.btn-green {
-    border: none !important;
-    background-color: #658e7c !important;
-    color: #fff !important;
-}
+// Variables
+@import 'variables';
 
-.btn-blue {
-    border: none !important;
-    background-color: #80b5d6 !important;
-    color: #fff !important;
-}
-
-.btn-orange {
-    border: none !important;
-    background-color: #e3bb90 !important;
-    color: #fff !important;
-}
-
-.header-green {
-    color: #658e7c;
-    font-weight: bolder;
-}
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
